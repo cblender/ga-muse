@@ -9,6 +9,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 load_dotenv()
 
+# Get the username and password for the PostGRESDatabase
 DB_USER = os.getenv('DB_ADMIN')
 DB_PASSWORD = os.getenv('DB_PASSWORD')
 
@@ -17,7 +18,7 @@ DB_PASSWORD = os.getenv('DB_PASSWORD')
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '26s(s$!)iac(owx^b=gkxo_i6f17sqa4caj+qd0jr-@pkb7%t0'
+SECRET_KEY = os.getenv('DJANGO_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
