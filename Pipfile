@@ -11,6 +11,7 @@ autopep8 = "*"
 django = "*"
 psycopg2-binary = "*"
 djangorestframework = "*"
+python-dotenv = "*"
 
 [requires]
 python_version = "3.8"
