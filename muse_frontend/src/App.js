@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
 import Header from "./components/Header.js";
-import Gallery from "./components/Gallery.js";
-import List from "./components/List.js";
+// import Gallery from "./components/Gallery.js";
+// import List from "./components/List.js";
 import axios from "axios";
 import { Route, HashRouter } from "react-router-dom";
 
@@ -11,7 +11,7 @@ function App() {
     <HashRouter basename="/">
       <div className="app">
         <Header />
-        <main>
+        {/* <main>
           <Route
             exact
             path="/"
@@ -27,7 +27,7 @@ function App() {
             path="/list"
             render={({ match }) => <List match={match} />}
           />
-        </main>
+        </main> */}
       </div>
     </HashRouter>
   );

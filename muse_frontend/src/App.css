@@ -1,0 +1,13 @@
+.app {
+  width: 100vw;
+  height: auto;
+  min-height: 100vh;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: #424242;
+  background-image: url(https://i.imgur.com/yj4M284.png);
+  background-size: cover;
+  background-attachment: "fixed";
+}
