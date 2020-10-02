@@ -9,6 +9,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 load_dotenv()
 
+# Get the username and password for the PostGRESDatabase
 DB_USER = os.getenv('DB_ADMIN')
 DB_PASSWORD = os.getenv('DB_PASSWORD')
 
